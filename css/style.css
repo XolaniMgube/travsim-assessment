@@ -1,0 +1,25 @@
+.room{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    max-width: 655px;
+    justify-self: center;
+    align-self: center;
+}
+
+.room div{
+    border: 1px solid black;
+    height: 80px;
+    width: 80px;
+}
+
+.tile{
+    background-color: yellow;
+}
+
+.dirty{
+    background-color: red;
+}
+
+
+
